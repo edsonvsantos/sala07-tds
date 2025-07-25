@@ -5,7 +5,8 @@
 }
 
 .background {
-    background-image: url('./images/bg.jfif');
+    background-image: url('https://preview.redd.it/adoro-memes-em-144p-v0-abr9ny7q605d1.jpeg?auto=webp&s=72dd3b214fc7346243de33a9623d1cf735d61ed5');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -75,7 +76,7 @@ input {
 }
 
 input::placeholder {
-    color: #1f1f1f;
+    color: #ffffff;
     font-weight: lighter;
 }
 
