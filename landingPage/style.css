@@ -38,7 +38,34 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    background-color: rgb(157, 25, 25);
 }
+
+.wrap-img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6px solid #ffffff;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+
+.img-s1{
+    width: 300px;
+    height: auto;
+    transition: all 200ms ease-in-out;
+}
+.img-s1:hover{
+    transform: scale(1.2);
+}
+
+.wrap.words{
+    width: 40%;
+}
+
+
 
 #s2{
     min-height: 100vh;
