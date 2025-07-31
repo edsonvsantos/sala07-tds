@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogadores</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous">
 </head>
+
 <body>
     <nav>
-        <a href="#s1">🦾<p>Sessão 01</p></a>
-        <a href="#s2">🐐<p>Sessão 02</p></a>
-        <a href="#s3">⚓<p>Sessão 03</p></a>
-        <a href="#s4">🚗<p>Sessão 04</p></a>
+        <a href="#s1"><i class="fa-solid fa-dragon"></i>
+            <p>Sessão 01</p>
+        </a>
+        <a href="#s2"><i class="fa-solid fa-dice"></i>
+            <p>Sessão 02</p>
+        </a>
+        <a href="#s3"><i class="fa-solid fa-biohazard"></i>
+            <p>Sessão 03</p>
+        </a>
+        <a href="#s4"><i class="fa-solid fa-cat"></i>
+            <p>Sessão 04</p>
+        </a>
     </nav>
     <main>
         <section id="s1">
             <div class="wrap-img">
-                <img class="img-s1" src="./images/cr7.jpg" alt="CR7">
-            </div>
-            <div class="wrap-words">
-                <h2>CR7</h2>
-                <p>Cristiano Ronaldo, também conhecido como CR7, é um jogador de futebol português amplamente
-                   reconhecido por suas notáveis habilidades e características dentro e fora do campo. </p>
-            </div>
-        </section>
-        <section id="s2">
-            <div class="wrap-img">
-                <img class="img-s1" src="./images/Messi.jpg" alt="Messi">
+                <img class="img-s1" src="./images/Messi.jpg" alt="Imagem exemplo">
             </div>
             <div class="wrap-words">
                 <h2>Messi</h2>
-                <p>Lionel Messi é um jogador argentino considerado um dos maiores da história do futebol. 
+                <p>
+                    Lionel Messi é um jogador argentino considerado um dos maiores da história do futebol. 
                     Conhecido por sua genialidade, dribles e precisão nos passes e finalizações, conquistou 
                     títulos com Barcelona, PSG, Inter Miami e a seleção argentina, incluindo a Copa do Mundo 
-                    de 2022.</p>
+                    de 2022.
+                </p>
             </div>
+        </section>
+        <section id="s2">
+            <h2>Tecnologias trabalhadas
+            <div class="wrap-cards">
+                <div class="card">
+                    <img src="" alt="Image card 1">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Image card 2">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Image card 3">
+                    <h3></h3>
+                    <p></p>
+                </div>       
+            </div>
+            </h2>
         </section>
         <section id="s3">
             <div class="wrap-img">
-                <img class="img-s1" src="./images/Gabigol.jpg" alt="Gabigol">
-            </div>
-            <div class="wrap-words">
-                <h2>Gabigol</h2>
-                <p>Gabigol, apelido de Gabriel Barbosa, é um atacante brasileiro conhecido por sua faro de gol 
-                    e personalidade marcante. Ídolo do Flamengo, foi decisivo nas conquistas da Libertadores 
-                    de 2019 e 2022, e se destaca pelo estilo provocador e gols em momentos decisivos.</p>
-            </div>
-        </section>
-        <section id="s4">
-            <div class="wrap-img">
-                <img class="img-s1" src="./images/UnoHenrique.jpg" alt="UnoHenrique">
+                <img class="img-s1" src="./images/UnoHenrique.jpg" alt="Gabigol">
             </div>
             <div class="wrap-words">
                 <h2>Uno Henrique</h2>
                 <p>Uno Henrique é a versão automotiva e veloz de Bruno Henrique, atacante do Flamengo. No meme, 
                     ele vira um Uno tunado, simbolizando sua incrível velocidade em campo — “ó o homi passando 
                     de Uno!” virou sinônimo de arrancada imparável!</p>
+            </div></section>
+        <section id="s4">
+            <h2>Contato</h2>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Insira seu nome" id="nome">
+                <label for="assunto">Assunto</label>
+                <input type="text" placeholder="Insira o assunto" id="assunto">
+                <button onclick="enviar()">Enviar</button>
             </div>
         </section>
-        <h2>Contato</h2>
-        <div class="formulario">
-            <label for="nome">Nome</label><br>
-            <input type="text" placeholder="Insira seu nome" id="nome"><br>
-            <label for="assunto">Assunto</label><br>
-            <input type="text" placeholder="Insira o assunto" id="assunto"><br>
-            <button onclick="enviar()">Enviar</button>
-        </div>
-    </section>
-</main>
+    </main>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
